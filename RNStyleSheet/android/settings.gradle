@@ -1,0 +1,3 @@
+rootProject.name = 'RNStyleSheet'
+
+include ':app'

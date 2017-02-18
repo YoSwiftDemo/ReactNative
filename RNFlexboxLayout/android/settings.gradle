@@ -1,0 +1,3 @@
+rootProject.name = 'RNFlexboxLayout'
+
+include ':app'
