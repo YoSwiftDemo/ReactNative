@@ -1,0 +1,3 @@
+rootProject.name = 'RNTabBarIOS'
+
+include ':app'
