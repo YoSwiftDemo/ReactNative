@@ -11,43 +11,9 @@ import {
   Text,
   View
 } from 'react-native';
-
-export default class RNFetch extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
-
+//在RN中使用fetch实现网络请求
+// 练习1：使用get和post方式获取数据
+var RNFetch = require("./getData");
+// 练习2：电影列表（网络请求数据）
+var RNFetch = require("./movieList");
 AppRegistry.registerComponent('RNFetch', () => RNFetch);
